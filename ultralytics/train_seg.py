@@ -8,4 +8,4 @@ from ultralytics import YOLO
 model = YOLO('yolov8l.pt')
 
 # Train the model
-model.train(data='cfg/datasets/coco128-seg.yaml', epochs=300, imgsz=512, batch=8, dropout=0.1,)
+model.train(data='cfg/datasets/coco128-seg.yaml', epochs=300, imgsz=512, batch=8, dropout=0.1,resume=True)
