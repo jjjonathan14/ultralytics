@@ -8,5 +8,3 @@ test:  # test images (optional)
 # Classes
 names:
   0: blood_vessel
-  1: glomerulus
-  2: unsure
